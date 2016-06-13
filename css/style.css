@@ -1,5 +1,55 @@
 body{
+  margin: 10px;
   background-image: url("https://lh5.googleusercontent.com/-rTIGIusqnpA/VMg6VIf4G1I/AAAAAAAABKQ/GypXMuqvP1k/s1600/background-for-websites-wallpapers-and-background.jpg");
-  background-size: auto;
-  font-family: 'Open Sans', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(240,249,255,1);
+}
+
+#header{
+  border-radius: 30px;
+  background: rgba(255, 209, 200,.2);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1{
+  color: rgb(130, 208, 221);
+}
+h3{
+  color: rgb(255, 255, 221);
+}
+
+img{
+  width: 95px;
+  border-radius: 50%;
+}
+#top{
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+  text-decoration: underline;
+  background: rgba(255, 202, 205, .2);
+  margin-left: 10%;
+  margin-right: 10%;
+  color: rgb(130, 208, 221);
+
+}
+.row{
+  border-radius: 30px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 200%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: rgba(255, 191, 211, .2);
+  margin-left: 10%;
+  margin-right: 10%;
+  color: rgb(255, 255, 221);
+
+
+}
+.col-sm-4{
+  text-align: center;
 }
